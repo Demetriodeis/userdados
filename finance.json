@@ -3,19 +3,20 @@
     {
       "cpf": "12345678901",
       "nome": "João da Silva",
-      "enderecos": [
+      "contasFinanceiras": [
         {
-          "id": "end1",
-          "logradouro": "Rua das Palmeiras, 123",
-          "bairro": "Centro",
-          "cidade": "João Pessoa",
-          "estado": "PB",
-          "faturas": [
+          "idConta": "conta1",
+          "numeroConta": "161195-6",
+          "agencia": "0001",
+          "banco": "Bank",
+          "tipoConta": "Corrente",
+          "transacoes": [
             {
               "mesReferencia": "julho/2025",
               "vencimento": "10/07/2025",
               "status": "Em aberto",
               "valor": 142.5,
+              "descricao": "Pagamento de serviço de internet",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
             },
             {
@@ -23,29 +24,24 @@
               "vencimento": "10/08/2025",
               "status": "Paga",
               "valor": 137.8,
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            },
-            {
-              "mesReferencia": "setembro/2025",
-              "vencimento": "10/09/2025",
-              "status": "Paga",
-              "valor": 129.4,
+              "descricao": "Pagamento de serviço de internet",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
             }
           ]
         },
         {
-          "id": "end2",
-          "logradouro": "Av. Brasil, 456",
-          "bairro": "Jardim América",
-          "cidade": "Cuiabá",
-          "estado": "MT",
-          "faturas": [
+          "idConta": "conta2",
+          "numeroConta": "0161135-4",
+          "agencia": "0001",
+          "banco": "Bank",
+          "tipoConta": "Poupança",
+          "transacoes": [
             {
               "mesReferencia": "agosto/2025",
               "vencimento": "15/08/2025",
               "status": "Paga",
               "valor": 188.7,
+              "descricao": "Pagamento de financiamento",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
             },
             {
@@ -53,6 +49,7 @@
               "vencimento": "15/09/2025",
               "status": "Paga",
               "valor": 178.25,
+              "descricao": "Pagamento de financiamento",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
             }
           ]
