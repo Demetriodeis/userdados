@@ -12,17 +12,25 @@
           "tipoConta": "Corrente",
           "transacoes": [
             {
-              "mesReferencia": "julho/2025",
+              "mesReferencia": "junho/2025",
               "vencimento": "10/07/2025",
-              "status": "Em aberto",
+              "status": "Paga",
               "valor": 142.5,
               "descricao": "Pagamento de serviço de internet",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
             },
             {
-              "mesReferencia": "agosto/2025",
+              "mesReferencia": "julho/2025",
               "vencimento": "10/08/2025",
-              "status": "Paga",
+              "status": "Vencida",
+              "valor": 137.8,
+              "descricao": "Pagamento de serviço de internet",
+              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
+            },
+            {
+              "mesReferencia": "agosto/2025",
+              "vencimento": "10/09/2025",
+              "status": "Em aberto",
               "valor": 137.8,
               "descricao": "Pagamento de serviço de internet",
               "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
