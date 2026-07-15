@@ -1,68 +1,74 @@
-{
-  "clientes": [
-    {
-      "cpf": "12345678901",
-      "nome": "João da Silva",
-      "contasFinanceiras": [
-        {
-          "idConta": "conta1",
-          "numeroConta": "161195-6",
-          "agencia": "0001",
-          "banco": "Bank",
-          "tipoConta": "Corrente",
-          "transacoes": [
-            {
-              "mesReferencia": "junho/2025",
-              "vencimento": "10/07/2025",
-              "status": "Paga",
-              "valor": 142.5,
-              "descricao": "Pagamento de serviço de internet",
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            },
-            {
-              "mesReferencia": "julho/2025",
-              "vencimento": "10/08/2025",
-              "status": "Vencida",
-              "valor": 137.8,
-              "descricao": "Pagamento de serviço de internet",
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            },
-            {
-              "mesReferencia": "agosto/2025",
-              "vencimento": "10/09/2025",
-              "status": "Em aberto",
-              "valor": 137.8,
-              "descricao": "Pagamento de serviço de internet",
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            }
-          ]
-        },
-        {
-          "idConta": "conta2",
-          "numeroConta": "0161135-4",
-          "agencia": "0001",
-          "banco": "Bank",
-          "tipoConta": "Poupança",
-          "transacoes": [
-            {
-              "mesReferencia": "agosto/2025",
-              "vencimento": "15/08/2025",
-              "status": "Paga",
-              "valor": 188.7,
-              "descricao": "Pagamento de financiamento",
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            },
-            {
-              "mesReferencia": "setembro/2025",
-              "vencimento": "15/09/2025",
-              "status": "Paga",
-              "valor": 178.25,
-              "descricao": "Pagamento de financiamento",
-              "linkBoleto": "https://blipmediastore.blob.core.windows.net/public-medias/Media_f902d21f-ab51-46ab-b93b-6733e5a99401"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "numeroPedido": "100001",
+    "cliente": "Maria Oliveira",
+    "status": "Aguardando Pagamento",
+    "transportadora": "Express Log"
+  },
+  {
+    "numeroPedido": "100002",
+    "cliente": "João Silva",
+    "status": "Pagamento confirmado",
+    "transportadora": "Flash Transportes"
+  },
+  {
+    "numeroPedido": "100003",
+    "cliente": "Ana Souza",
+    "status": "Em rota de entrega",
+    "transportadora": "Express Log"
+  },
+  {
+    "numeroPedido": "100004",
+    "cliente": "Carlos Mendes",
+    "status": "Entregue",
+    "transportadora": "Rápido Brasil"
+  },
+  {
+    "numeroPedido": "100005",
+    "cliente": "Fernanda Lima",
+    "status": "Pagamento confirmado",
+    "transportadora": "Total Express"
+  },
+  {
+    "numeroPedido": "100006",
+    "cliente": "Ricardo Alves",
+    "status": "Em rota de entrega",
+    "transportadora": "LogFast"
+  },
+  {
+    "numeroPedido": "100007",
+    "cliente": "Juliana Costa",
+    "status": "Aguardando Pagamento",
+    "transportadora": "Express Log"
+  },
+  {
+    "numeroPedido": "100008",
+    "cliente": "Pedro Henrique",
+    "status": "Entregue",
+    "transportadora": "Flash Transportes"
+  },
+  {
+    "numeroPedido": "100009",
+    "cliente": "Camila Rocha",
+    "status": "Pagamento confirmado",
+    "transportadora": "Rápido Brasil"
+  },
+  {
+    "numeroPedido": "100010",
+    "cliente": "Lucas Ferreira",
+    "status": "Em rota de entrega",
+    "transportadora": "LogFast"
+  },
+  {
+    "numeroPedido": "100011",
+    "cliente": "Patrícia Gomes",
+    "status": "Entregue",
+    "transportadora": "Total Express"
+  },
+  {
+    "numeroPedido": "100012",
+    "cliente": "Bruno Martins",
+    "status": "Aguardando Pagamento",
+    "transportadora": "Express Log"
+  }
+]
